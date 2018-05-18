@@ -1,0 +1,43 @@
+#first-header {
+  color: orange;
+  font-family: 'Roboto';
+  font-size:30px;
+  text-align:center;
+}
+
+h1, h2 {
+  padding: 15px;
+}
+
+
+#second-header {
+  background-color: pink;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s ease-out;  
+    width:400px; 
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transition: 1s ease-out;   
+}
+
+.link {
+  color: gold;
+  font-size: 20px;
+  background-color:red;
+  margin:15px;
+  padding: 25px;
+}
+
+a:hover {
+  color:white;
+}
